@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node lib/app.js",
-    "postinstall": "tsc"
+    "postinstall": "tsc",
+    "dev": "nodemon src/app.ts -e js,hbs"
   },
   "dependencies": {
     "express": "^4.17.1",
